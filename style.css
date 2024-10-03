@@ -1,0 +1,210 @@
+.naglowek {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.naglowek h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.naglowek hr {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+.linki {
+    list-style-type: none;
+    padding: 0;
+}
+
+.linki li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.linki a {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.linki a:hover {
+    color: #0056b3;
+}
+.stopka {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.stopka h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: #007bff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff5722;
+}
+
+.stopka p {
+    margin: 10px 0;
+}
+.wpisy {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+}
+
+.wpisy h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.wpis-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.wpis {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 40%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wpis header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.wpis img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.wpis p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+.wpis footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 15px;
+}
+.info {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.info h2 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.info h3 {
+    font-family: 'Arial', sans-serif;
+    color: #444;
+}
+
+.info p {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+
+.info ul {
+    margin-left: 20px;
+}
+.contact-form {
+    padding: 20px;
+    background-color: #f0f0f0; /* Przykładowy kolor tła */
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Przykładowy kolor przycisku */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Kolor przycisku po najechaniu */
+}
